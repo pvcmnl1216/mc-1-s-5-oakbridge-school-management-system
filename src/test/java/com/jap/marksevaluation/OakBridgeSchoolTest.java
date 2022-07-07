@@ -44,15 +44,6 @@ public class OakBridgeSchoolTest {
     }
 
     @Test
-    public void givenNamesArrayReturnArrayInAlphabeticalOrderSuccess(){
-        assertArrayEquals(new String[]{"Ann", "Kate", "Kate", "Leo", "Michelle", "Pam", "Ria", "Sam", "Tina", "Tom"},oakBridgeSchool.sortInAlphabeticalOrder(studentNames));
-        assertSame(studentNames,oakBridgeSchool.sortInAlphabeticalOrder(studentNames));
-    }
-    @Test
-    public void givenNamesArrayReturnArrayInAlphabeticalOrderFailure(){
-        assertNull(oakBridgeSchool.sortInAlphabeticalOrder(new String[]{}));
-    }
-    @Test
     public void givenSurnameArrayReturnShortestSurname(){
         assertEquals("King",oakBridgeSchool.shortestSurname(studentSurnames));
     }

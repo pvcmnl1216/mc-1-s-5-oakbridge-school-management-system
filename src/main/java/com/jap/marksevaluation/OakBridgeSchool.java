@@ -6,11 +6,6 @@ public class OakBridgeSchool {
        return null;
     }
 
-    // Sort the given names in alphabetical order
-    public String[] sortInAlphabeticalOrder(String[] names){
-          return names;
-    }
-
     // Find the shortest word in the list of surnames
     public String shortestSurname(String[] surnames)
     {
